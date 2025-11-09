@@ -54,7 +54,7 @@ def get_db():
         db.close()
 
 # ---------------- AWS S3 Setup ----------------
-BUCKET_NAME = "todoappkis3"  # replace with your bucket name
+BUCKET_NAME = "meritodoapps3"  # replace with your bucket name
 s3_client = boto3.client("s3")  # relies on EC2 IAM Role
 UPLOAD_INTERVAL = 10  # seconds
 
